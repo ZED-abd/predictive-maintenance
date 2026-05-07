@@ -1,0 +1,39 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.so
+*.egg
+
+# ── Environnement ──
+.env
+.env.local
+*.env.local
+
+# ── Node.js ──
+node_modules/
+npm-debug.log*
+
+# ── ML Models (auto-générés) ──
+ml/models/
+
+# ── IDE / OS ──
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Base de données SQLite (si utilisé) ──
+*.sqlite3
+*.db
+
+# ── Rapports générés ──
+Rapport_*.docx
+
+# ── Dashboard build ──
+dashboard/dist/
+
+# ── Fichiers temporaires Windows ──
+~*.*
+*.tmp
